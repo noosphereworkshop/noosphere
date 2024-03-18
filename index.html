@@ -191,6 +191,16 @@ This website uses Google Analytics for page views.
         const show = !toggler.classList.contains('collapsed');
         banner.classList[show ? 'add' : 'remove']('show');
   });
+  console.log('xxxxxx')
+  document.querySelectorAll('.banner .nav-link').forEach(el => {
+  	el.addEventListener('click', () => {
+	     const show = !toggler.classList.contains('collapsed');
+	     if(show){
+	     	toggler.click();
+	     }
+	  });
+  
+  });
 
    
 </script>
