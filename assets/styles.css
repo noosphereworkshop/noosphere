@@ -84,13 +84,16 @@ a, a:visited, a:hover {
     right: 0;
     left: 0;
     z-index:1000;
-    padding: 0.5rem 0;
 }
 
+.navbar>.container  {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.banner.show .sticky-wrapper .navbar,
 .sticky-wrapper.is-sticky .navbar {
     background-color: black;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
 }
 
 
