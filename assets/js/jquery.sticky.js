@@ -40,7 +40,10 @@
           etse = elementTop - s.topSpacing - extra;
 
     //update height in case of dynamic content
-    s.stickyWrapper.css('height', s.stickyElement.outerHeight());
+    //setTimeout(() => {
+        s.stickyWrapper.css('height', s.stickyElement.outerHeight());
+    //});
+
 
         if (scrollTop <= etse) {
           if (s.currentTop !== null) {
