@@ -22,6 +22,7 @@
 <div class="banner">
 <nav class="navbar navbar-expand-lg">                
 <div class="container">
+
     <a class="navbar-brand d-flex align-items-center" href="index.html">
     	<!--
         <img src="images/.png" class="navbar-brand-image img-fluid" alt="Noosphere Workshop"> -->
@@ -33,6 +34,7 @@
     <div class="d-none ms-auto me-3">
         <a class="btn custom-btn custom-border-btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Member Login</a>
     </div>
+
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -126,7 +128,7 @@ We invite you to submit already accepted works or ongoing research in the format
 <!-- All submissions will be reviewed using a double-blind peer-to-peer review process. -->
 </p>
 <p>
-Submission details will be posted here soon.
+<a href="https://cmt3.research.microsoft.com/Noosphere2024/">Submissions are now open (here) !</a>
 </p>
 
 <ul>
@@ -189,6 +191,16 @@ This website uses Google Analytics for page views.
 <script src="assets/js/click-scroll.js"></script>
 <script src="assets/js/modernizr.js"></script>
 
+<script>
+  const toggler = document.querySelector('button.navbar-toggler');
+  const banner = document.querySelector('.banner');
+  toggler.addEventListener('click', () => {
+        const show = !toggler.classList.contains('collapsed');
+        banner.classList[show ? 'add' : 'remove']('show');
+  });
+
+   
+</script>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-297MJMLPXV"></script>
