@@ -191,3 +191,9 @@ a, a:visited, a:hover {
   top: 8px;
 }
 
+.sponsor img {
+  width: 20rem;
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;;
+}
