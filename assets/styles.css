@@ -197,3 +197,24 @@ a, a:visited, a:hover {
   margin: 0 auto;
   display: block;;
 }
+
+/* Prize Panel */
+
+.prize-panel {
+  padding: 10px 20px;
+  background-color: #d1eec5;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.prize-panel div {
+  text-align: left;
+  font-size: 0.8em;
+  padding: 10px 20px;
+}
+
+.prize-panel ul {
+  padding-left: 10px;
+}
