@@ -1,349 +1,338 @@
 <!DOCTYPE html>
 <html lang="en">
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
 
-        <title>Noosphere: Tactile Sensing for General Purpose Robots Learning</title>
-        
-	    <link href="https://fonts.googleapis.com/css?family=Oswald%3A400%2C600%2C700%7COpen%20Sans%3A400%2C600%2C700&amp;display=swap" rel="stylesheet" nonce="">
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-        <link href="assets/css/bootstrap-icons.css" rel="stylesheet">
-        <link href="assets/schedule.css" rel="stylesheet">
-	    <link rel="stylesheet" href="assets/styles.css">
+<title>Noosphere: Tactile Sensing for General Purpose Robots Learning</title>
+
+<link
+    href="https://fonts.googleapis.com/css?family=Oswald%3A400%2C600%2C700%7COpen%20Sans%3A400%2C600%2C700&amp;display=swap"
+    rel="stylesheet" nonce="">
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/css/bootstrap-icons.css" rel="stylesheet">
+<link href="assets/schedule.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+
 <body>
 
+    <div class="banner">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
 
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <!-- <img src="images/.png" class="navbar-brand-image img-fluid" alt="Noosphere Workshop"> -->
+                    <span class="navbar-brand-text">
+                        RSS 2024 Workshop
+                    </span>
+                </a>
 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-<div class="banner">
-<nav class="navbar navbar-expand-lg">                
-<div class="container">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#home">Home</a>
+                        </li>
 
-    <a class="navbar-brand d-flex align-items-center" href="index.html">
-    	<!--
-        <img src="images/.png" class="navbar-brand-image img-fluid" alt="Noosphere Workshop"> -->
-        <span class="navbar-brand-text">
-            RSS 2024 Workshop
-        </span>
-    </a> 
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#speakers">Speakers</a>
+                        </li>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#call">Call for papers</a>
+                        </li>
 
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-lg-auto">
-            <li class="nav-item">
-        <a class="nav-link click-scroll" href="#home">Home</a>
-            </li>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#attending">Attending</a>
+                        </li>
 
-            <li class="nav-item">
-        <a class="nav-link click-scroll" href="#speakers">Speakers</a>
-            </li>
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#organizers">Organizers</a>
+                        </li>
+                    </ul>
 
-            <li class="nav-item">
-        <a class="nav-link click-scroll" href="#call">Call for papers</a>
-            </li>
-
-            <li class="nav-item">
-        <a class="nav-link click-scroll" href="#attending">Attending</a>
-            </li>
-
-            <li class="nav-item">
-        <a class="nav-link click-scroll" href="#organizers">Organizers</a>
-            </li>
-        </ul>
-
-    </div>
-</div>
-</nav>
-</div>
-
-
-
-
-	
-
-<section id="home">
-<div class="wrapper">
-<h1>Noosphere: Tactile Sensing for General Purpose Robot Learning</h1>
-<p>
-Demonstrations with the <a href="http://personalrobotics.stanford.edu/" target="_blank">PR2 Robots</a>, 
-and the low-cost <a href="https://mobile-aloha.github.io/" target="_blank">Mobile ALOHA project</a> project, 
-might suggest that technologies for building general-purpose robots are on the verge of readiness, 
-as these can be teleoperated to perform a wide range of daily tasks effectively. 
-However, devoid of tactile sensing feedback, such robots have not yet been shown to possess the dexterous interactive learning capabilities that animals have — even before they develop language. 
-With that, within the tactile sensing community, there is a growing discussion around the idea that touch is a fundamental capability for learning. 
-After all, intelligent animals, including humans, are equipped with tactile sensing from a very early age. 
-</p>
-
-<p>
-With research on tactile sensing and robotic learning being at a peak point, Noosphere, like its namesake, is a timely and exciting 
-workshop that brings together researchers from tactile sensing and sensors, 
-simulation methods for Sim2Real learning, grasping and manipulation, and interactive perception.
-</p>
-
-<small style="line-height:1.2rem; display:block; color:#909090; margin-top:3rem;">
-<strong>Noosphere (noun):</strong> a postulated sphere or stage of evolutionary development dominated by consciousness, the mind, and interpersonal relationships.
-</small>
-
-</div>
-</section> 
- 
-
-<section id="speakers" style="background: #f1f1f1;">
-<div class="wrapper">
-<h2> Invited Speakers </h2>
-<ul>
-<li><a href="https://www.csc.kth.se/~danik/" target="_blank"> Danica Kragic </a>(KTH)</li>
-<li><a href="https://xiaolonw.github.io/" target="_blank"> Xiaolong Wang </a> (UC San Diego)</li>
-<li><a href="https://people.csail.mit.edu/pulkitag/" target="_blank"> Pulkit Agrawal </a> (MIT) </li>
-<li><a href="https://sites.google.com/site/panjia/" target="_blank">Jia Pan</a> (University of Hong Kong) </li>
-<li><a href="https://jxu.ai/" target="_blank">Jingxi Xu</a> (Columbia University)</li>
-<li><a href="https://cs.illinois.edu/about/people/all-faculty/yuanwz" target="_blank">Wenzhen Yuan</a> (UIUC)</li>
-<li><a href="https://lepora.com/" target="_blank">Nathan Lepora </a> (University of Bristol)</li>
-<li><a href="https://shanluo.github.io/" target="_blank">Shan Luo </a> (King's College London)</li>
-<li><a href="https://www.nawidjamali.com/" target="_blank">Nawid Jamali </a> (Honda Research Institute USA)</li>
-</ul>
-</div>
-</section>
-
-<section id="call">
-<div class="wrapper">
-
-<h2> Call for papers and posters</h2>
-
-<p>
-We invite you to submit already-accepted work or ongoing research in the format of extended abstracts.
-The papers are expected to be two-pages long and to follow the <a href="https://roboticsconference.org/information/authorinfo/#paper-and-demo-format">conference template</a>.
-Authors with accepted submissions will be invited to exhibit their poster during the workshop coffee break.
-<!-- All submissions will be reviewed using a double-blind peer-to-peer review process. -->
-</p>
-
-<p>
-    Submissions are now open here:
-    <a href="https://cmt3.research.microsoft.com/Noosphere2024/" target="_blank">https://cmt3.research.microsoft.com/Noosphere2024/</a>
-</p>
-
-<!-- Panel with prize announcement -->
-<div class="prize-panel">
-    <h3>Best Submission Award</h3>
-    <p>— sponsored by <a href="https://www.ocadogroup.com/osp/our-technology/" target="_blank">Ocado Technology</a></p>
-    <p style="padding: 10px;">The best submission will be awarded a prize of <strong>£300</strong>.</p>
-    <div>
-        <p>Eligibility</p>
-        <ol>
-            <li>The author must be the first author of the submission.</li>
-            <li>The author must be a student or early-career researcher.</li>
-            <li>The author must attend the workshop in person (not remotely).</li>
-            <li>The author agrees to present their work during the workshop <em>'Award Spotlight'</em> session and to participate in the panel discussion.</li>
-        </ol>
-    </div>
-</div>
-
-<ul>
-<li><strong>Submission Deadline:</strong> <del>1st July, 2024</del> 14th July, 2024</li>
-<li><strong>Notification of acceptance:</strong> <del>5th July, 2024</del> 16th July, 2024</li>
-<li><strong>Camera-ready deadline:</strong> <del>12th July, 2024</del> 18th July, 2024</li>
-</ul>
-
-<strong>Subject Areas</strong><br>
-<ul>
-<li>Tactile sensors (and skins)</li>
-<li>Simulation methods for Sim2Real learning</li>
-<li>Interactive perception</li>
-<li>Learning manipulation (grasping, folding, tossing, etc.)</li>
-<li>Tactile sensing for locomotion</li>
-</ul>
-
-</div>
-</section>
-
-
-<div class="wrapper">
-
-    
-    <h2> Schedule </h2>
-
-
-    
-    <div class="table-wrapper">
-        <table>
-            <thead>
-                <tr>
-                    <th>Starts at</th>
-                    <th>Session</th>
-                    <th>Speakers</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><span class="time">1:25 PM</span><br><span class="duration">(5 mins)</span></td>
-                    <td>Opening</td>
-                    <td>Welcome message and introduction</td>
-                </tr>
-                <tr>
-                    <td><span class="time">1:30 PM</span><br><span class="duration">(80 mins)</span></td>
-                    <td>Talks I</td>
-                    <td>
-                        <span class="time">1:30 PM</span> – Nawid Jamali, <em>Honda Research Institute</em><br>
-                        <span class="time">1:45 PM</span> – Shan Luo, <em>King’s College London</em><br>
-                        <span class="time">2:00 PM</span> – Jingxi Xu, <em>Columbia Univ.</em><br>
-                        <span class="time">2:15 PM</span> – Nathan Lepora, <em>Univ. of Bristol</em><br>
-                        <span class="time">2:30 PM</span> – Jia Pan, <em>Univ. of Hong Kong</em><br>
-                    </td>
-                </tr>
-                <tr>
-                    <td><span class="time">3:15 PM</span><br><span class="duration">(15 mins)</span></td>
-                    <td>Lightning Round</td>
-                    <td>2 mins presentations by poster authors <br>
-                        <a 
-                        href="https://docs.google.com/document/u/1/d/e/2PACX-1vS_TVaa0XlRqQPfFabdGwHnVZ87MHJ7AQK-k_dJfid4uFO3MdjPpwPg1ZQOzkkJjc-JYeVqeJTzZ3Ex/pub">
-                        (presentations order)
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td><span class="time">3:30 PM</span><br><span class="duration">(30 mins)</span></td>
-                    <td>Coffee Break<br>Poster Session</td>
-                    <td>Posters displayed and<br>presenters available for Q&A</td>
-                </tr>
-                <tr>
-                    <td><span class="time">4:00 PM</span><br><span class="duration">(80 mins)</span></td>
-                    <td>Talks II</td> 
-                    <td>
-                        <span class="time">4:00 PM</span> – Carmelo Sferrazza, <em>UC Berkeley</em><br>
-                        <span class="time">4:15 PM</span> – Danica Kragic, <em>KTH</em><br>
-                        <span class="time">4:30 PM</span> – Pulkit Agrawal, <em>MIT</em><br>
-                        <span class="time">4:45 PM</span> – Wenzhen Yuan, <em>UIUC</em><br>
-                        <span class="time">5:00 PM</span> – Xiaolong Wang, <em>UC San Diego</em>
-                    </td>
-                </tr>
-                <tr>
-                    <td><span class="time">5:15 PM</span><br><span class="duration">(10 mins)</span></td>
-                    <td>Award Spotlight</td>
-                    <td>Technical presentation by Zilin Si (best paper submission) — <em>DiffTactile: A Physics-based Differentiable
-                        Tactile Simulator for Contact-rich Manipulation</em></td> 
-                </tr>
-                <tr>
-                    <td><span class="time">5:30 PM</span><br><span class="duration">(30 mins)</span></td>
-                    <td>Panel Discussion</td>
-                    <td>The speakers and the author of the best<br>submission engage in a technical discussion</td>
-                </tr>
-                <tr>
-                    <td><span class="time">6:00 PM</span></td>
-                    <td>Closing</td>
-                    <td>Conclusion and farewell</td>
-                </tr>
-            </tbody>
-        </table>
+                </div>
+            </div>
+        </nav>
     </div>
 
-    <small>The time is indicated in the main conference timezone (GMT+2).</small>
+    <section id="home">
+        <div class="wrapper">
+            <h1>Noosphere: Tactile Sensing for General Purpose Robot Learning</h1>
+            <p>
+                Demonstrations with the <a href="http://personalrobotics.stanford.edu/" target="_blank">PR2 Robots</a>,
+                and the low-cost <a href="https://mobile-aloha.github.io/" target="_blank">Mobile ALOHA project</a>
+                project,
+                might suggest that technologies for building general-purpose robots are on the verge of readiness,
+                as these can be teleoperated to perform a wide range of daily tasks effectively.
+                However, devoid of tactile sensing feedback, such robots have not yet been shown to possess the
+                dexterous interactive learning capabilities that animals have — even before they develop language.
+                With that, within the tactile sensing community, there is a growing discussion around the idea that
+                touch is a fundamental capability for learning.
+                After all, intelligent animals, including humans, are equipped with tactile sensing from a very early
+                age.
+            </p>
+
+            <p>
+                With research on tactile sensing and robotic learning being at a peak point, Noosphere, like its
+                namesake, is a timely and exciting
+                workshop that brings together researchers from tactile sensing and sensors,
+                simulation methods for Sim2Real learning, grasping and manipulation, and interactive perception.
+            </p>
+
+            <small style="line-height:1.2rem; display:block; color:#909090; margin-top:3rem;">
+                <strong>Noosphere (noun):</strong> a postulated sphere or stage of evolutionary development dominated by
+                consciousness, the mind, and interpersonal relationships.
+            </small>
+
+        </div>
+    </section>
+
+    <section id="speakers" style="background: #f1f1f1;">
+        <div class="wrapper">
+            <h2> Invited Speakers </h2>
+            <ul>
+                <li><a href="https://www.csc.kth.se/~danik/" target="_blank"> Danica Kragic </a>(KTH)</li>
+                <li><a href="https://xiaolonw.github.io/" target="_blank"> Xiaolong Wang </a> (UC San Diego)</li>
+                <li><a href="https://people.csail.mit.edu/pulkitag/" target="_blank"> Pulkit Agrawal </a> (MIT) </li>
+                <li><a href="https://sites.google.com/site/panjia/" target="_blank">Jia Pan</a> (University of Hong
+                    Kong) </li>
+                <li><a href="https://jxu.ai/" target="_blank">Jingxi Xu</a> (Columbia University)</li>
+                <li><a href="https://cs.illinois.edu/about/people/all-faculty/yuanwz" target="_blank">Wenzhen Yuan</a>
+                    (UIUC)</li>
+                <li><a href="https://lepora.com/" target="_blank">Nathan Lepora </a> (University of Bristol)</li>
+                <li><a href="https://shanluo.github.io/" target="_blank">Shan Luo </a> (King's College London)</li>
+                <li><a href="https://www.nawidjamali.com/" target="_blank">Nawid Jamali </a> (Honda Research Institute
+                    USA)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="call">
+        <div class="wrapper">
+
+            <h2> Call for papers and posters</h2>
+
+            <p>
+                We invite you to submit already-accepted work or ongoing research in the format of extended abstracts.
+                The papers are expected to be two-pages long and to follow the <a
+                    href="https://roboticsconference.org/information/authorinfo/#paper-and-demo-format">conference
+                    template</a>.
+                Authors with accepted submissions will be invited to exhibit their poster during the workshop coffee
+                break.
+                <!-- All submissions will be reviewed using a double-blind peer-to-peer review process. -->
+            </p>
+
+            <p>
+                Submissions are now open here:
+                <a href="https://cmt3.research.microsoft.com/Noosphere2024/"
+                    target="_blank">https://cmt3.research.microsoft.com/Noosphere2024/</a>
+            </p>
+
+            <!-- Panel with prize announcement -->
+            <div class="prize-panel">
+                <h3>Best Submission Award</h3>
+                <p>— sponsored by <a href="https://www.ocadogroup.com/osp/our-technology/" target="_blank">Ocado
+                        Technology</a></p>
+                <p style="padding: 10px;">The best submission will be awarded a prize of <strong>£300</strong>.</p>
+                <div>
+                    <p>Eligibility</p>
+                    <ol>
+                        <li>The author must be the first author of the submission.</li>
+                        <li>The author must be a student or early-career researcher.</li>
+                        <li>The author must attend the workshop in person (not remotely).</li>
+                        <li>The author agrees to present their work during the workshop <em>'Award Spotlight'</em>
+                            session and to participate in the panel discussion.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <ul>
+                <li><strong>Submission Deadline:</strong> <del>1st July, 2024</del> 14th July, 2024</li>
+                <li><strong>Notification of acceptance:</strong> <del>5th July, 2024</del> 16th July, 2024</li>
+                <li><strong>Camera-ready deadline:</strong> <del>12th July, 2024</del> 18th July, 2024</li>
+            </ul>
+
+            <strong>Subject Areas</strong><br>
+            <ul>
+                <li>Tactile sensors (and skins)</li>
+                <li>Simulation methods for Sim2Real learning</li>
+                <li>Interactive perception</li>
+                <li>Learning manipulation (grasping, folding, tossing, etc.)</li>
+                <li>Tactile sensing for locomotion</li>
+            </ul>
+        </div>
+    </section>
 
 
-</div>
+    <div class="wrapper">
 
-<section id="attending"  style="background: #f1f1f1;">
-<div class="wrapper" id="attending">
+        <h2> Schedule </h2>
 
-    
-<h2> Attending </h2>
-<ul>
-    <li> When: Friday, July 19 </li>
-    <li> Where: <a href="https://roboticsconference.org/" target="_blank"> Robotics Science and Systems (RSS) 2024</a>, Delft, Netherlands </li>
-    
-</ul>
-    <div style="text-align:center; padding: 3rem">
-        <a href="https://us05web.zoom.us/j/7028959962?pwd=9iWhywv4N8jjAhbyTHMnbgU19LcE1T.1" 
-            target="_blank" 
-            style="color:white; background:#0e72ed; padding: 0.6rem 1.8rem; border-radius: 0.3rem; margin: 0.8rem;">
-            Join via Zoom
-        </a>
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Starts at</th>
+                        <th>Session</th>
+                        <th>Speakers</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="time">1:25 PM</span><br><span class="duration">(5 mins)</span></td>
+                        <td>Opening</td>
+                        <td>Welcome message and introduction</td>
+                    </tr>
+                    <tr>
+                        <td><span class="time">1:30 PM</span><br><span class="duration">(80 mins)</span></td>
+                        <td>Talks I</td>
+                        <td>
+                            <span class="time">1:30 PM</span> – Nawid Jamali, <em>Honda Research Institute</em><br>
+                            <span class="time">1:45 PM</span> – Shan Luo, <em>King’s College London</em><br>
+                            <span class="time">2:00 PM</span> – Jingxi Xu, <em>Columbia Univ.</em><br>
+                            <span class="time">2:15 PM</span> – Nathan Lepora, <em>Univ. of Bristol</em><br>
+                            <span class="time">2:30 PM</span> – Jia Pan, <em>Univ. of Hong Kong</em><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="time">3:15 PM</span><br><span class="duration">(15 mins)</span></td>
+                        <td>Lightning Round</td>
+                        <td>2 mins presentations by poster authors <br>
+                            <a
+                                href="https://docs.google.com/document/u/1/d/e/2PACX-1vS_TVaa0XlRqQPfFabdGwHnVZ87MHJ7AQK-k_dJfid4uFO3MdjPpwPg1ZQOzkkJjc-JYeVqeJTzZ3Ex/pub">
+                                (presentations order)
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="time">3:30 PM</span><br><span class="duration">(30 mins)</span></td>
+                        <td>Coffee Break<br>Poster Session</td>
+                        <td>Posters displayed and<br>presenters available for Q&A</td>
+                    </tr>
+                    <tr>
+                        <td><span class="time">4:00 PM</span><br><span class="duration">(80 mins)</span></td>
+                        <td>Talks II</td>
+                        <td>
+                            <span class="time">4:00 PM</span> – Carmelo Sferrazza, <em>UC Berkeley</em><br>
+                            <span class="time">4:15 PM</span> – Danica Kragic, <em>KTH</em><br>
+                            <span class="time">4:30 PM</span> – Pulkit Agrawal, <em>MIT</em><br>
+                            <span class="time">4:45 PM</span> – Wenzhen Yuan, <em>UIUC</em><br>
+                            <span class="time">5:00 PM</span> – Xiaolong Wang, <em>UC San Diego</em>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="time">5:15 PM</span><br><span class="duration">(10 mins)</span></td>
+                        <td>Award Spotlight</td>
+                        <td>Technical presentation by Zilin Si (best paper submission) — <em>DiffTactile: A
+                                Physics-based Differentiable
+                                Tactile Simulator for Contact-rich Manipulation</em></td>
+                    </tr>
+                    <tr>
+                        <td><span class="time">5:30 PM</span><br><span class="duration">(30 mins)</span></td>
+                        <td>Panel Discussion</td>
+                        <td>The speakers and the author of the best<br>submission engage in a technical discussion</td>
+                    </tr>
+                    <tr>
+                        <td><span class="time">6:00 PM</span></td>
+                        <td>Closing</td>
+                        <td>Conclusion and farewell</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <small>The time is indicated in the main conference timezone (GMT+2).</small>
     </div>
-<div>
-</section>
 
-<section id="organizers">
+    <section id="attending" style="background: #f1f1f1;">
+        <div class="wrapper" id="attending">
+            <h2> Attending </h2>
+            <ul>
+                <li> When: Friday, July 19 </li>
+                <li> Where: <a href="https://roboticsconference.org/" target="_blank"> Robotics Science and Systems
+                        (RSS) 2024</a>, Delft, Netherlands </li>
+            </ul>
+            <div style="text-align:center; padding: 3rem">
+                <a href="https://us05web.zoom.us/j/7028959962?pwd=9iWhywv4N8jjAhbyTHMnbgU19LcE1T.1" target="_blank"
+                    style="color:white; background:#0e72ed; padding: 0.6rem 1.8rem; border-radius: 0.3rem; margin: 0.8rem;">
+                    Join via Zoom
+                </a>
+            </div>
+            <div>
+    </section>
 
-<div class="wrapper">
+    <section id="organizers">
+        <div class="wrapper">
+            <h2> Organizers </h2>
+            <ul>
+                <li><a href="https://sferrazza.cc/" target="_blank"> Carmelo (Carlo) Sferrazza </a> (UC Berkeley)</li>
+                <li><a href="https://danfergo.github.io" target="_blank"> Daniel Fernandes Gomes </a> (King's College
+                    London)</li>
+                <li><a href="https://sites.google.com/view/ycyan" target="_blank">Youcan Yan</a> (CNRS - LIRMM)</li>
+                <li><a href="https://joaobimbo.github.io/" target="_blank"> João Bimbo </a> (Univesity of Lisbon) </li>
+                <li><a href="https://ferrolho.github.io/" target="_blank"> Henrique Ferrolho </a> (Ocado Technology)
+                </li>
+            </ul>
+        </div>
+        <div class="wrapper">
+            <h1> Sponsor </h1>
+            <a class="sponsor" href="https://www.ocadogroup.com/osp/our-technology/" target="_blank">
+                <img src="assets/ocado.jpg" />
+            </a>
+        </div>
+    </section>
 
-    <h2> Organizers </h2>
-    <ul>
-        <li><a href="https://sferrazza.cc/" target="_blank"> Carmelo (Carlo) Sferrazza </a> (UC Berkeley)</li>
-        <li><a href="https://danfergo.github.io" target="_blank"> Daniel Fernandes Gomes </a> (King's College London)</li>
-        <li><a href="https://sites.google.com/view/ycyan" target="_blank">Youcan Yan</a> (CNRS - LIRMM)</li>
-        <li><a href="https://joaobimbo.github.io/" target="_blank"> João Bimbo </a> (Univesity of Lisbon) </li>
-        <li><a href="https://ferrolho.github.io/" target="_blank"> Henrique Ferrolho </a> (Ocado Technology)</li>
-    </ul>
-</div>
+    <footer>
+        <div class="wrapper">
+            <div style="height:5rem"></div>
 
+            <div class="text-center" style="color:#999">
+                This website uses Google Analytics for page views.
+            </div>
+            <div style="height:4rem"></div>
+        </div>
+    </footer>
 
-<div class="wrapper">
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.sticky.js"></script>
+    <script src="assets/js/click-scroll.js"></script>
+    <script src="assets/js/modernizr.js"></script>
 
-    <h1> Sponsor </h2>
+    <script>
+        const toggler = document.querySelector('button.navbar-toggler');
+        const banner = document.querySelector('.banner');
+        toggler.addEventListener('click', () => {
+            const show = !toggler.classList.contains('collapsed');
+            banner.classList[show ? 'add' : 'remove']('show');
+        });
 
-    <a class="sponsor" href="https://www.ocadogroup.com/osp/our-technology/"  target="_blank">
-        <img src="assets/ocado.jpg"/>
-    </a>
+        document.querySelectorAll('.banner .nav-link').forEach(el => {
+            el.addEventListener('click', () => {
+                const show = !toggler.classList.contains('collapsed');
+                if (show) {
+                    toggler.click();
+                }
+            });
 
-</div>
+        });
+    </script>
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-297MJMLPXV"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-297MJMLPXV');
+    </script>
 
-
-</section>
-
-
-<footer>
-<div class="wrapper">
-<div style="height:5rem"></div>
-
-<div class="text-center" style="color:#999">
-This website uses Google Analytics for page views.
-</div>
-<div style="height:4rem"></div>
-</div>
-</footer>
-
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/bootstrap.bundle.min.js"></script>
-<script src="assets/js/jquery.sticky.js"></script>
-<script src="assets/js/click-scroll.js"></script>
-<script src="assets/js/modernizr.js"></script>
-
-<script>
-  const toggler = document.querySelector('button.navbar-toggler');
-  const banner = document.querySelector('.banner');
-  toggler.addEventListener('click', () => {
-        const show = !toggler.classList.contains('collapsed');
-        banner.classList[show ? 'add' : 'remove']('show');
-  });
-
-  document.querySelectorAll('.banner .nav-link').forEach(el => {
-  	el.addEventListener('click', () => {
-	     const show = !toggler.classList.contains('collapsed');
-	     if(show){
-	     	toggler.click();
-	     }
-	  });
-  
-  });
-
-   
-</script>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-297MJMLPXV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-297MJMLPXV');
-</script>
-    
 </body>
 
 </html>
